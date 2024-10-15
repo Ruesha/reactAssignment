@@ -1,0 +1,201 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+ background-color: aliceblue;
+}
+.header{
+  padding: 10px;
+}
+.snap{
+  font-weight: bold;
+  font-size: 30px;
+  display: inline;
+}
+.nav{
+  display: inline;
+  margin-left: 30px;
+
+}
+.nav a{
+  color: gray;
+  text-decoration: none;
+  padding: 16px;
+}
+
+.arr{
+  margin-left: .5rem;
+}
+
+/* .nav button{
+  background-color: transparent;
+  border: none;
+ 
+} */
+
+.right-float{
+  float: right;
+  display: inline;
+  margin-top: 1.1rem;
+
+}
+
+.right-float a{
+  text-decoration: none;
+  padding: 1rem;
+  padding-top: 0;
+  padding-bottom: 0;
+  color: gray;
+}
+
+.register{
+  height: 25px;
+  border: 1px solid gray;
+  border-radius: 7px;
+  background-color: transparent;
+  color: grey;
+}
+.main{
+  padding: 5rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-note{
+  margin-top: 5rem;
+}
+
+.right-image{
+  float: right;
+}
+
+.image-it{
+  width:35vw;
+
+}
+
+.big-text{
+  font-size: 5rem;
+  font-weight: bold;
+}
+
+.under{
+  display: block;
+  margin-top: -3rem;
+}
+
+.small-text{
+  color: gray;
+  width: 50%;
+  padding-top: 2rem;
+}
+
+.main-note  .link-contain{
+  margin-top: 4rem;
+  color: white;
+}
+
+.main-note .link{
+  text-decoration:none;
+  color: white;
+  transition: .5s ease-in-out;
+  background-color: black;
+  padding: .5rem 1rem;
+  border: 1px solid black;
+  border-radius: 8px;
+}
+
+.foot{
+  margin-top: 5rem;
+}
+
+.foot img{
+ margin-right: 64px ;
+}
+@media all and (orientation:portrait){
+  .right-image{
+      display: none;
+  }
+
+  .mobile-image{
+      display: block;
+      
+  }
+
+  .nav{
+      display: none;
+  }
+
+  .snap{
+      padding: 10px;
+      padding-left: 0;
+      
+  }
+  .ham{
+      display: flex;
+  }
+
+  .right-float{
+      display: none;
+  }
+
+  .main{
+      display: block;
+      text-align: center ;
+      padding: 0;
+  }
+
+  .small-text{
+      width: 100%;
+      padding: 16px;
+  }
+
+  .big-text{
+      font-size: 30px;
+  }
+
+  .under{
+      display: inline;
+  }
+  
+  .main-note{
+      margin: 30px;
+  }
+
+  .main-note  .link-contain{ 
+      margin-top: 16px;
+  }
+
+}
+
+@media all and (max-width:772px){
+  .foot img{
+      margin-right: 32px;
+  }
+}
+
+@media all and (max-width:579px){
+  .foot img{
+      margin-right: 16px;
+  }
+}
+
+@media all and (max-width:515px){
+  .foot img{
+      margin-right: 8px;
+  }
+}
+
+@media all and (max-width:485px){
+  .foot img{
+    margin-right: 2px;
+  }
+} 
